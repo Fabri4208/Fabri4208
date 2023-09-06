@@ -1,9 +1,8 @@
 # Euro-marketing.site 
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Tu Agencia de Marketing Digital - Impulsamos tu éxito en línea">
     <title>Marketing Digital</title>
@@ -21,7 +20,7 @@
         </nav>
     </header>
 
-    <section id="inicio">
+  <section id="inicio">
         <div class="container">
             <h1>Tu Éxito en Línea Comienza Aquí</h1>
             <p>Somos una agencia de marketing digital dedicada a impulsar tu presencia en línea y aumentar tus conversiones.</p>
@@ -29,7 +28,7 @@
         </div>
     </section>
 
-    <section id="servicios">
+  <section id="servicios">
         <div class="container">
             <h2>Nuestros Servicios</h2>
             <div class="services">
@@ -53,7 +52,7 @@
         </div>
     </section>
 
-    <section id="portfolio">
+  <section id="portfolio">
         <div class="container">
             <h2>Nuestro Portfolio</h2>
             <div class="project">
@@ -69,7 +68,7 @@
         </div>
     </section>
 
-    <section id="contacto">
+  <section id="contacto">
         <div class="container">
             <h2>Contacta con Nosotros</h2>
             <p>¡Contáctanos para descubrir cómo podemos ayudarte a alcanzar tus objetivos de marketing digital!</p>
@@ -85,13 +84,14 @@
         </div>
     </section>
 
-    <footer>
+   <footer>
         <div class="container">
             <p>&copy; 2023 Tu Agencia de Marketing Digital</p>
         </div>
     </footer>
 
-    <script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>
+
 
