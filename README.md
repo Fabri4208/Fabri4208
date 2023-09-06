@@ -108,7 +108,7 @@
 <script>
     const languageSelect = document.getElementById('languageSelect');
 
-    languageSelect.addEventListener('change', function() {
+languageSelect.addEventListener('change', function() {
         const selectedLanguage = languageSelect.value;
         const url = `index-${selectedLanguage}.html`; // Cambia 'index' por el nombre de tu página principal
         window.location.href = url;
@@ -116,7 +116,7 @@
 </script>
 
 
-            <li>✔️ Estrategias personalizadas para tu negocio</li>
+ <li>✔️ Estrategias personalizadas para tu negocio</li>
             <li>✔️ Resultados medibles y comprobados</li>
         </ul>
         <p>No dejes pasar esta oportunidad para llevar tu negocio al siguiente nivel. ¡Contáctanos hoy mismo!</p>
