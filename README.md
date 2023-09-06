@@ -101,21 +101,6 @@
         <p>¿Por qué elegirnos?</p>
         <ul>
             <li>✔️ Experiencia y conocimientos en marketing digital</li>
-            <select id="languageSelect">
-    <option value="es">Español</option>
-    <option value="en">English</option>
-</select>
-<script>
-    const languageSelect = document.getElementById('languageSelect');
-
-languageSelect.addEventListener('change', function() {
-        const selectedLanguage = languageSelect.value;
-        const url = `index-${selectedLanguage}.html`; // Cambia 'index' por el nombre de tu página principal
-        window.location.href = url;
-    });
-</script>
-
-
  <li>✔️ Estrategias personalizadas para tu negocio</li>
             <li>✔️ Resultados medibles y comprobados</li>
         </ul>
@@ -123,4 +108,19 @@ languageSelect.addEventListener('change', function() {
         <a href="#contacto" class="cta-button">Contáctanos</a>
     </div>
 </section>
+<select id="languageSelect">
+    <option value="es">Español</option>
+    <option value="en">English</option>
+</select>
+<script>
+    const languageSelect = document.getElementById('languageSelect');
+
+   languageSelect.addEventListener('change', function() {
+        const selectedLanguage = languageSelect.value;
+        const url = `index-${selectedLanguage}.html`; // Cambia 'index' por el nombre de tu página principal
+        window.location.href = url;
+    });
+</script>
+
+
 
