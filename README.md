@@ -18,109 +18,49 @@
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
+        <!-- Agregar el menú desplegable de idioma -->
+        <select id="languageSelect">
+            <option value="es" selected>Español</option>
+            <option value="en">English</option>
+        </select>
     </header>
 
-  <section id="inicio">
+ <section id="inicio">
         <div class="container">
             <h1>Tu Éxito en Línea Comienza Aquí</h1>
             <p>Somos una agencia de marketing digital dedicada a impulsar tu presencia en línea y aumentar tus conversiones.</p>
+            <p>¿Por qué elegirnos?</p>
+            <ul>
+                <li>✔️ Experiencia y conocimientos en marketing digital</li>
+                <li>✔️ Estrategias personalizadas para tu negocio</li>
+                <li>✔️ Resultados medibles y comprobados</li>
+            </ul>
+            <p>No dejes pasar esta oportunidad para llevar tu negocio al siguiente nivel. ¡Contáctanos hoy mismo!</p>
             <a href="#contacto" class="cta-button">Contáctanos</a>
         </div>
     </section>
+    <!-- Resto de tu contenido en español -->
 
-  <section id="servicios">
-        <div class="container">
-            <h2>Nuestros Servicios</h2>
-            <div class="services">
-                <div class="service">
-                    <h3>SEO (Optimización de Motores de Búsqueda)</h3>
-                    <p>Mejoramos tu clasificación en los motores de búsqueda para aumentar la visibilidad.</p>
-                </div>
-                <div class="service">
-                    <h3>Publicidad en Redes Sociales</h3>
-                    <p>Creamos estrategias de publicidad efectivas en redes sociales.</p>
-                </div>
-                <div class="service">
-                    <h3>Email Marketing</h3>
-                    <p>Llega a tu audiencia de manera personalizada y efectiva.</p>
-                </div>
-                <div class="service">
-                    <h3>Desarrollo Web</h3>
-                    <p>Diseñamos sitios web modernos y atractivos que convierten visitantes en clientes.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-  <section id="portfolio">
-        <div class="container">
-            <h2>Nuestro Portfolio</h2>
-            <div class="project">
-                <img src="proyecto1.jpg" alt="Proyecto 1">
-                <h3>Proyecto de SEO Exitoso</h3>
-                <p>Aumentamos el tráfico orgánico en un 150% para nuestro cliente en la industria de la moda.</p>
-            </div>
-            <div class="project">
-                <img src="proyecto2.jpg" alt="Proyecto 2">
-                <h3>Campaña en Redes Sociales</h3>
-                <p>Generamos un aumento del 30% en la participación de los usuarios en una campaña en Instagram.</p>
-            </div>
-        </div>
-    </section>
-
-  <section id="contacto">
-        <div class="container">
-            <h2>Contacta con Nosotros</h2>
-            <p>¡Contáctanos para descubrir cómo podemos ayudarte a alcanzar tus objetivos de marketing digital!</p>
-            <form action="procesar.php" method="post">
-                <label for="nombre">Nombre:</label>
-                <input type="text" id="nombre" name="nombre" required>
-                <label for="correo">Correo Electrónico:</label>
-                <input type="email" id="correo" name="correo" required>
-                <label for="mensaje">Mensaje:</label>
-                <textarea id="mensaje" name="mensaje" required></textarea>
-                <button type="submit">Enviar</button>
-            </form>
-        </div>
-    </section>
-
-   <footer>
+  <footer>
         <div class="container">
             <p>&copy; 2023 Tu Agencia de Marketing Digital</p>
         </div>
     </footer>
 
-  <script src="script.js"></script>
+   <script>
+        const languageSelect = document.getElementById('languageSelect');
+
+        languageSelect.addEventListener('change', function() {
+            const selectedLanguage = languageSelect.value;
+            const url = `index-${selectedLanguage}.html`; // Cambia 'index' por el nombre de tu página principal
+            window.location.href = url;
+        });
+    </script>
 </body>
 </html>
 
-<section id="inicio">
-    <div class="container">
-        <h1>Tu Éxito en Línea Comienza Aquí</h1>
-        <p>Somos una agencia de marketing digital dedicada a impulsar tu presencia en línea y aumentar tus conversiones.</p>
-        <p>¿Por qué elegirnos?</p>
-        <ul>
-            <li>✔️ Experiencia y conocimientos en marketing digital</li>
- <li>✔️ Estrategias personalizadas para tu negocio</li>
-            <li>✔️ Resultados medibles y comprobados</li>
-        </ul>
-        <p>No dejes pasar esta oportunidad para llevar tu negocio al siguiente nivel. ¡Contáctanos hoy mismo!</p>
-        <a href="#contacto" class="cta-button">Contáctanos</a>
-    </div>
-</section>
-<select id="languageSelect">
-    <option value="es">Español</option>
-    <option value="en">English</option>
-</select>
-<script>
-    const languageSelect = document.getElementById('languageSelect');
 
-   languageSelect.addEventListener('change', function() {
-        const selectedLanguage = languageSelect.value;
-        const url = `index-${selectedLanguage}.html`; // Cambia 'index' por el nombre de tu página principal
-        window.location.href = url;
-    });
-</script>
+
 
 
 
