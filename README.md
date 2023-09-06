@@ -9,6 +9,23 @@
 </head>
 <body>
     <header>
+<section id="descuentos">
+    <div class="container">
+        <h2>¡Aprovecha Nuestros Descuentos Especiales!</h2>
+        <div class="discount">
+            <h3>Descuento de Verano</h3>
+            <p>Ahorra un 15% en todos nuestros servicios durante el verano.</p>
+        </div>
+        <div class="discount">
+            <h3>Descuento por Referencia</h3>
+            <p>Referencia a un amigo y ambos obtendrán un 10% de descuento en su próximo proyecto.</p>
+        </div>
+        <div class="discount">
+            <h3>Descuento de Cumpleaños</h3>
+            <p>Celebra tu cumpleaños con nosotros y recibe un 20% de descuento en cualquier servicio.</p>
+        </div>
+    </div>
+</section>
         <h1>Nuestra Agencia de Marketing Digital</h1>
         <p>Tu socio en línea para el éxito de tu negocio</p>
     </header>
