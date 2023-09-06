@@ -68,6 +68,17 @@
     </div>
 </section>
 
+<section id="redes-sociales">
+    <h2>Síguenos en Redes Sociales</h2>
+    <ul>
+        <li><a href="https://www.facebook.com/tuempresa" target="_blank">Facebook</a></li>
+        <li><a href="https://twitter.com/tuempresa" target="_blank">Twitter</a></li>
+        <li><a href="https://www.instagram.com/tuempresa" target="_blank">Instagram</a></li>
+        <!-- Agrega aquí más enlaces a tus redes sociales si es necesario -->
+    </ul>
+</section>
+
+
 
 
 
