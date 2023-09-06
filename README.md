@@ -13,7 +13,7 @@
         <p>Tu socio en línea para el éxito de tu negocio</p>
     </header>
 
-    <nav>
+<nav>
         <ul>
             <li><a href="#inicio">Inicio</a></li>
             <li><a href="#servicios">Servicios</a></li>
@@ -22,12 +22,12 @@
         </ul>
     </nav>
 
-    <section id="inicio">
+ <section id="inicio">
         <h2>Bienvenido a nuestra agencia</h2>
         <p>Somos expertos en marketing digital y estamos aquí para ayudarte a crecer en línea.</p>
     </section>
 
-    <section id="servicios">
+ <section id="servicios">
         <h2>Nuestros Servicios</h2>
         <ul>
             <li>SEO (Optimización de Motores de Búsqueda)</li>
@@ -37,20 +37,20 @@
         </ul>
     </section>
 
-    <section id="portfolio">
+ <section id="portfolio">
         <h2>Nuestro Portfolio</h2>
-        <!-- Aquí puedes incluir ejemplos de proyectos anteriores -->
-    </section>
+     <!-- Aquí puedes incluir ejemplos de proyectos anteriores -->
+ </section>
 
-    <section id="contacto">
+ <section id="contacto">
         <h2>Contacto</h2>
         <p>¡Contáctanos para discutir cómo podemos ayudarte a alcanzar tus objetivos de marketing digital!</p>
     </section>
     
-    <footer>
+ <footer>
         <p>&copy; 2023 Tu Agencia de Marketing Digital</p>
     </footer>
 
-    <script src="script.js"></script>
+   <script src="script.js"></script>
 </body>
 </html>
