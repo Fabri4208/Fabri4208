@@ -4,60 +4,70 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Tu Agencia de Marketing Digital - Impulsamos tu éxito en línea">
-    <title>Marketing Digital</title>
+    <title>Servicios de Marketing Digital</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <nav>
-            <ul>
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#portfolio">Portfolio</a></li>
-                <li><a href="#contacto">Contacto</a></li>
-            </ul>
-        </nav>
-        <!-- Agregar el menú desplegable de idioma -->
-        <select id="languageSelect">
-            <option value="es" selected>Español</option>
-            <option value="en">English</option>
-        </select>
+        <h1>Nuestra Agencia de Marketing Digital</h1>
+        <p>Tu socio en línea para el éxito de tu negocio</p>
     </header>
 
- <section id="inicio">
-        <div class="container">
-            <h1>Tu Éxito en Línea Comienza Aquí</h1>
-            <p>Somos una agencia de marketing digital dedicada a impulsar tu presencia en línea y aumentar tus conversiones.</p>
-            <p>¿Por qué elegirnos?</p>
-            <ul>
-                <li>✔️ Experiencia y conocimientos en marketing digital</li>
-                <li>✔️ Estrategias personalizadas para tu negocio</li>
-                <li>✔️ Resultados medibles y comprobados</li>
-            </ul>
-            <p>No dejes pasar esta oportunidad para llevar tu negocio al siguiente nivel. ¡Contáctanos hoy mismo!</p>
-            <a href="#contacto" class="cta-button">Contáctanos</a>
-        </div>
+  <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+    <section id="inicio">
+        <h2>Bienvenido a nuestra agencia</h2>
+        <p>Somos expertos en marketing digital y estamos aquí para ayudarte a crecer en línea.</p>
     </section>
-    <!-- Resto de tu contenido en español -->
+    
+  <section id="servicios">
+        <h2>Nuestros Servicios</h2>
+        <ul>
+            <li>SEO (Optimización de Motores de Búsqueda)</li>
+            <li>Publicidad en Redes Sociales</li>
+            <li>Email Marketing</li>
+            <li>Desarrollo Web</li>
+        </ul>
+    </section>
 
-  <footer>
-        <div class="container">
-            <p>&copy; 2023 Tu Agencia de Marketing Digital</p>
-        </div>
+  <section id="portfolio">
+        <h2>Nuestro Portfolio</h2>
+      <!-- Aquí puedes incluir ejemplos de proyectos anteriores -->
+    </section>
+
+   <section id="contacto">
+        <h2>Contacto</h2>
+        <p>¡Contáctanos para discutir cómo podemos ayudarte a alcanzar tus objetivos de marketing digital!</p>
+    </section>
+   
+   <footer>
+        <p>&copy; 2023 Tu Agencia de Marketing Digital</p>
     </footer>
 
-   <script>
-        const languageSelect = document.getElementById('languageSelect');
-
-        languageSelect.addEventListener('change', function() {
-            const selectedLanguage = languageSelect.value;
-            const url = `index-${selectedLanguage}.html`; // Cambia 'index' por el nombre de tu página principal
-            window.location.href = url;
-        });
-    </script>
+   <script src="script.js"></script>
 </body>
 </html>
+<section id="inicio">
+    <div class="container">
+        <h1>Tu Éxito en Línea Comienza Aquí</h1>
+        <p>Somos una agencia de marketing digital dedicada a impulsar tu presencia en línea y aumentar tus conversiones.</p>
+        <p>¿Por qué elegirnos?</p>
+        <ul>
+            <li>✔️ Experiencia y conocimientos en marketing digital</li>
+            <li>✔️ Estrategias personalizadas para tu negocio</li>
+            <li>✔️ Resultados medibles y comprobados</li>
+        </ul>
+        <p>No dejes pasar esta oportunidad para llevar tu negocio al siguiente nivel. ¡Contáctanos hoy mismo!</p>
+        <a href="#contacto" class="cta-button">Contáctanos</a>
+    </div>
+</section>
+
 
 
 
