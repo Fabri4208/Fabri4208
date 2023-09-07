@@ -1,0 +1,51 @@
+# Estrategia de Marketing Digital
+
+## Objetivos
+
+- Aumentar la visibilidad de la marca en línea.
+- Generar leads de calidad.
+- Mejorar la tasa de conversión en el sitio web.
+
+## Canales y Tácticas
+
+1. SEO (Optimización de Motores de Búsqueda)
+   - Investigación de palabras clave.
+   - Optimización en la página.
+   - Creación de contenido de calidad.
+   
+2. Publicidad en Redes Sociales
+   - Anuncios en Facebook e Instagram.
+   - Campañas de remarketing.
+   
+3. Email Marketing
+   - Segmentación de listas de correo.
+   - Envío de boletines informativos y promociones.
+   
+4. Marketing de Contenidos
+   - Blog posts educativos y relevantes.
+   - Infografías y videos informativos.
+   
+5. Analítica Web
+   - Seguimiento de conversiones.
+   - Análisis de datos para tomar decisiones.
+
+## Calendario de Contenido
+
+- Febrero: Campaña de San Valentín.
+- Mayo: Promoción de verano.
+- Septiembre: Vuelta a clases.
+
+## Métricas Clave
+
+- Tráfico web.
+- Tasa de conversión.
+- Costo por lead.
+- Retorno de inversión (ROI).
+
+## Presupuesto
+
+- Publicidad en redes sociales: $1,500/mes.
+- Herramientas de marketing: $300/mes.
+- Personal de marketing: $4,000/mes.
+
+Este archivo contiene una estrategia básica de marketing digital que incluye objetivos, canales, tácticas, un calendario de contenido, métricas clave y un presupuesto. Puedes personalizarlo y expandirlo según las necesidades de tu proyecto de marketing digital.
